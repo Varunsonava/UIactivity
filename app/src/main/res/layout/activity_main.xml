@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <ImageButton
+        android:id="@+id/imageButton"
+        android:layout_width="116dp"
+        android:layout_height="238dp"
+        android:layout_below="@id/textView"
+        android:layout_marginTop="100sp"
+        app:srcCompat="@drawable/ear"
+        android:layout_marginLeft="50sp"
+        tools:layout_editor_absoluteX="237dp"
+        tools:layout_editor_absoluteY="197dp" />
+
+    <ImageButton
+        android:id="@+id/imageButton2"
+        android:layout_width="108dp"
+        android:layout_toRightOf="@id/imageButton"
+        android:layout_marginTop="100sp"
+        android:layout_below="@id/textView"
+        android:layout_marginLeft="50sp"
+        android:padding="15sp"
+        android:layout_height="236dp"
+        app:srcCompat="@drawable/mouth"
+        tools:layout_editor_absoluteX="50dp"
+        tools:layout_editor_absoluteY="199dp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Where do you want assistance?"
+        android:textSize="30sp"
+        android:textColor="#000"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="37dp" />
+</RelativeLayout>
